@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar membuat form</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <h2 class="bg-light-subtle">Form Pendaftaran Lomba Lari</h2>
+    <form class="bg-gradient">
+        Nama Lengkap :<br>
+        <input type="text" name="nama_lengkap" size="40"><br><br>
+        Jenis Kelamin :<br>
+        <input type="radio" name="jenis_kelamin" value="L" checked> Laki-Laki
+        <input type="radio" name="jenis_kelamin" value="P"> Perempuan <br><br>
+        Email :<br>
+        <input type="text" name="email" size="40"><br><br>
+        Password :<br>
+        <input type="text" name="password" size="40"><br><br>
+        Aktif pada sosial media:<br>
+        <input type="checkbox" name="facebook" value="Ya" checked>Facebook
+        <input type="checkbox" name="twitter" value="Ya">Twitter 
+        <input type="checkbox" name="instagram" value="Ya">Instagram 
+         <br>
+        Mengetahui web ini dari: <br>
+        <select class="bg-secondary" name="info">
+            <option selected="select">-= pilih =-</option>
+            <option value="web">web</option>
+            <option value="social media">Social media</option>
+            <option value="teman kerabat">Teman/Kerabat</option>
+            <option value="browsing internet">Browsing Internet</option>
+        </select><br><br>
+        Apa motivasi lari anda: <br>
+        <textarea name="pesan" cols="40"></textarea> <br><br>
+        <input class="bg-primary-subtle" type="submit" value="kirim">
+
+
+    </form>
+</body>
+</html>
